@@ -16,7 +16,11 @@
 
 
 
-<main></main>
+<main>
+    
+    <h2>The about us- page</h2>
+
+</main>
 
 <?php include "includes/footer.php" ?>
 
