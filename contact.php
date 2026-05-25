@@ -10,8 +10,8 @@
     <style>
         footer {
             position: fixed;
-             bottom: 0;
-    }
+            bottom: 0;
+        }
     </style>
 </head>
 <body>
@@ -24,7 +24,7 @@
 
 <main>
     
-    <h2>The about us- page</h2>
+    <h2>The contact page</h2>
 
 </main>
 

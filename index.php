@@ -16,7 +16,35 @@
 
 
 
-<main></main>
+<main>
+
+    <div class="left">
+        <div class="section-title">Product categories</div>
+        <a href="">Books</a>
+        <a href="">Games</a>
+    </div>
+
+    <div class="right">
+        <div class="section-title">Home page</div>
+            <div class="product">
+                <div class="product-left">
+                    <img src="products/coding.jpg" alt="">
+                </div>
+                <div class="product-right">
+                    <p class="title">
+                        <a href="">Coding is fun</a>
+                    </p>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae eius a, qui fugit rerum veniam neque optio voluptatibus, eligendi praesentium ea aut nam in inventore expedita. Obcaecati sapiente quos nulla.
+                    </p>
+                    <p class="price">
+                        29.99 &euro;
+                    </p>
+                </div>
+            </div>
+
+    </div>
+</main>
 
 <?php include "includes/footer.php" ?>
 
