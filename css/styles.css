@@ -39,18 +39,28 @@ nav a {
     font-size: 18px;
 }
 
-nav a:hover,
+/*nav a:hover,*/
 nav a.active {
     background: #4d9176;
     color: #fff;
     border-radius: 3px;
 }
 
+nav a:active {
+    background-color: red;
+}
+
+nav .links {
+    display: flex;
+    gap: 10px;
+}
+
 /*HEADER RULES*/
 
 header {
     padding: 40px 20px;
-    background-color: #f4f4f4;
+   /* background-color: #f4f4f4; */
+   border-bottom: thin solid #d4d4d4;
 }
 
 header h1 {}
@@ -58,6 +68,7 @@ header h1 {}
 header .sub-title {
     margin-top: 20px;
     line-height: 28px;
+    font-size: 20px;
 }
 
 /* MAIN SECTION */
@@ -102,7 +113,8 @@ main .right .product {
     grid-row-gap: 50px;
 }
 
-main .right .product.left img {
+main .right .product-left{}
+main .right .product-left img {
     height: 150px;
     display: block;
     margin: 0 auto;
