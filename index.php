@@ -14,14 +14,24 @@
 <?php include "includes/header.php" ?>
 
 
-
-
 <main>
 
     <div class="left">
         <div class="section-title">Product categories</div>
-        <a href="">Books</a>
-        <a href="">Games</a>
+        <?php $categories = getCategories() ?>
+        <?php
+            foreach($categories as $category) {
+                ?>
+
+                <a href="category.php?category=<?php echo urlencode($category['category']) ?>">
+                    <?php echo ucfirst($category['category']) ?>
+                </a>
+            <?php
+
+            }
+            
+            ?>
+
     </div>
 
     <div class="right">
